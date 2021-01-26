@@ -6,12 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-eureka" />
+        <module name="didi-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud-eureka" target="8" />
-      <module name="didi-boxing" target="8" />
+      <module name="cloud-eureka" target="1.5" />
+      <module name="didi-boxing" target="1.5" />
+      <module name="didi-registry" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="didi-registry" options="-parameters" />
+    </option>
   </component>
 </project>

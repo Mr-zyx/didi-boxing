@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/didi-boxing.iml" filepath="$PROJECT_DIR$/.idea/didi-boxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/didi-registry/didi-registry.iml" filepath="$PROJECT_DIR$/didi-registry/didi-registry.iml" />
     </modules>
   </component>
 </project>
